@@ -1,6 +1,6 @@
 import express from "express";
 import cors from "cors";
-import { recordUserAction, getUserRecentActions } from "./userActions.js";
+import { recordUserAction, getUserRecentActions } from "./userActionsService.js";
 
 const app = express();
 app.use(express.json());
